@@ -1,0 +1,28 @@
+  
+.container {
+  border: 15px solid lightblue;
+  float: left;
+  width: 15%; 
+  /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px;
+  display: flex;
+}
+
+.trainerContainer {
+  border: 15px solid lightblue;
+  width: 5in;
+  margin: auto; 
+}
+
+.listItem {
+  transition: opacity .5s ease;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.header {
+  height: 3in
+}
